@@ -1,6 +1,8 @@
+import ContactUs from "@/components/ContactUs";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -72,6 +74,8 @@ export default function Home() {
           </div>
         </section>
       </div>
+      <Testimonials />
+      <ContactUs />
     </>
   );
 }

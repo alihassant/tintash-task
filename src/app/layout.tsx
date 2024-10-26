@@ -1,5 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({
+  weight: ["400", "700"], // Customize weights as needed
+  subsets: ["latin"],
+  variable: "--font-poppins", // Adds CSS variable
+});
 
 export const metadata: Metadata = {
   title: "Tintash",
@@ -13,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased`}>{children}</body>
+      <body className={poppins.className}>{children}</body>
     </html>
   );
 }

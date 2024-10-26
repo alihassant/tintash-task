@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.rounded-custom {
+  border-bottom-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+
+.curved-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90%; /* Adjusted height */
+  width: 95%; /* Adjusted width */
+  border-top-right-radius: 10px 2%; /* Creates the curve */
+  border-bottom-right-radius: 60%; /* Creates the curve */
+  background-color: white; /* Background color */
+  z-index: 0; /* Ensure it stays behind the content */
+}
+
+.diagonal-line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200%;
+  height: 150px; /* Thickness of the line */
+  background-color: #cdd8f6; /* Line color */
+  transform: translate(-50%, -50%) rotate(20deg); /* Center and rotate */
+  overflow: hidden; /* Hide overflow */
+  z-index: 0; /* Ensure it stays behind content */
+}
+
+.testimonial-card {
+  position: relative;
+  overflow: hidden; /* Ensure overflowing parts are hidden */
+  z-index: 2; /* Ensure it is above the diagonal line */
+}
