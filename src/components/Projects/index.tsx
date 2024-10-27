@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section className="relative overflow-hidden bg-[#3a46b4]">
       <div className="diagonal-line-projects"></div>
-      <div className="curve-diagonal-line-projects"></div>
+      {/* <div className="curve-diagonal-line-projects"></div> */}
       <div className="relative z-10 mx-auto mb-12 flex max-w-6xl flex-col items-center pt-20">
         <h2 className="text-center text-4xl font-extrabold">
           <span className="text-[#2E8EFF]">OUR</span>{" "}
