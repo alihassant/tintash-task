@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Apple } from "lucide-react";
 
 interface ProjectCardProps {
   title: string;

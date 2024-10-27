@@ -13,7 +13,7 @@ const Projects = () => {
           <span className="text-white">PROJECTS</span>
         </h2>
         <p className="mt-4 w-[70%] text-center text-lg text-white">
-          We craft every project piece by thinking of the end user. That's why
+          We craft every project piece by thinking of the end user. That&apos;s why
           our game development services make our clients succeed.
         </p>
       </div>
