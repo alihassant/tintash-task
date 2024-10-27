@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Testimonials() {
   const testimonials = [
     {
@@ -31,35 +33,29 @@ export default function Testimonials() {
           <span className="text-[#391978]">TRUST US</span>
         </h2>
       </div>
-      <div className="rounded-tl-[50px] rounded-tr-[50px] bg-[#E5F6FF] px-4 py-16 md:mx-16 md:pb-28">
-        <div className="mx-auto grid max-w-6xl grid-cols-1 gap-16 md:grid-cols-3">
+      <div className="rounded-tl-[50px] rounded-tr-[50px] bg-[#E5F6FF] px-4 py-16 xl:mx-16">
+        <div className="mx-auto grid max-w-6xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="testimonial-card flex h-[400px] flex-col items-center rounded-2xl bg-[#d9e9ff] p-6 text-center"
+              className="testimonial-card flex min-h-[400px] flex-col items-center rounded-2xl bg-[#d9e9ff] p-6 text-center"
             >
               {/* Diagonal Line */}
               <div className="diagonal-line"></div>
 
               {/* Inner card div with rounded corners */}
-              <div className="rounded-custom relative flex h-[400px] flex-col items-center overflow-hidden rounded-lg bg-[#f8f4fc] p-6 text-center shadow-md">
+              <div className="rounded-custom relative flex min-h-[400px] flex-col items-center overflow-hidden rounded-lg bg-[#f8f4fc] p-6 text-center shadow-md">
                 {/* Curved Background */}
                 <div className="curved-background"></div>
 
                 {/* Quote Icon */}
-                <svg
-                  width="56"
-                  height="36"
-                  viewBox="0 0 56 44"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
+                <Image
+                  src="/quote.svg"
+                  width={40}
+                  height={40}
+                  alt="Quote Icon"
                   className="relative z-10 mb-4 mt-4"
-                >
-                  <path
-                    d="M12.352 0.0359943L21.372 2.988L17.6 18.896C20.3333 19.4427 22.2467 20.5907 23.34 22.34C24.4333 24.0893 24.98 26.9867 24.98 31.032C24.98 35.8427 24.0507 39.1773 22.192 41.036C20.4427 42.7853 17.2173 43.66 12.516 43.66C8.03333 43.66 4.86267 42.7853 3.004 41.036C1.25467 39.1773 0.38 35.8427 0.38 31.032C0.489334 29.2827 0.653334 27.6973 0.872 26.276C1.2 24.8547 1.692 23.324 2.348 21.684C3.004 20.044 3.87867 17.9667 4.972 15.452L12.352 0.0359943ZM43.184 0.0359943L52.204 2.988L48.432 18.896C51.2747 19.4427 53.2427 20.5907 54.336 22.34C55.4293 24.0893 55.976 26.9867 55.976 31.032C55.976 35.8427 55.0467 39.1773 53.188 41.036C51.4387 42.7853 48.1587 43.66 43.348 43.66C38.8653 43.66 35.7493 42.7853 34 41.036C32.2507 39.1773 31.376 35.8427 31.376 31.032C31.376 29.2827 31.4853 27.6973 31.704 26.276C32.032 24.8547 32.524 23.324 33.18 21.684C33.836 20.044 34.7107 17.9667 35.804 15.452L43.184 0.0359943Z"
-                    fill="#642B93"
-                  />
-                </svg>
+                />
 
                 {/* Quote Text */}
                 <p className="relative z-10 mb-4 text-lg text-[#642B93]">
