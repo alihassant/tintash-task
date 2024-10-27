@@ -39,7 +39,7 @@ const LiveOpsCaseStudy = () => {
         </svg>
 
         {/* Grid layout for content */}
-        <div className="relative z-10 grid w-full max-w-6xl grid-cols-1 gap-4 p-4 md:grid-cols-2 xl:grid-cols-3">
+        <div className="relative z-10 grid w-[90%] grid-cols-1 gap-4 p-4 md:grid-cols-2 xl:grid-cols-3">
           <div>
             <LiveOpsOutcome />
           </div>
