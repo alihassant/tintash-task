@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <div className="relative h-[90vh] w-full">
         {/* Background image */}
-        <div className="absolute inset-0">
+        <div className="absolute inset-0 bg-gradient-to-r from-[#3a46b4] to-[#5492DB]">
           <Image
             src="/hero-background.png"
             alt="Hero image"
