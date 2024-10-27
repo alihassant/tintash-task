@@ -2,6 +2,7 @@ import ContactUs from "@/components/ContactUs";
 import Features from "@/components/Features";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import LiveOpsCaseStudy from "@/components/LiveOpsCaseStudy";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
 import Testimonials from "@/components/Testimonials";
@@ -50,7 +51,7 @@ export default function Home() {
         </section>
 
         {/* Why Us Section */}
-        <section className="mx-auto mt-8 w-full max-w-6xl bg-white px-4 py-10 text-center">
+        <section className="mx-auto mt-8 w-full max-w-6xl bg-gray-600 px-4 py-10 text-center">
           <h2 className="text-2xl font-bold text-blue-900">WHY TINTASH</h2>
           <p className="mt-2 text-gray-600">
             Your success is important to us. We are a reliable partner with 15+
@@ -76,6 +77,7 @@ export default function Home() {
           </div>
         </section>
       </div>
+      <LiveOpsCaseStudy />
       <Projects />
       <Testimonials />
       <ContactUs />
