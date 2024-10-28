@@ -4,7 +4,7 @@ import React from "react";
 
 const Rating = () => {
   return (
-    <div className="flex w-[75%] flex-col items-center justify-center">
+    <div className="flex lg:w-[75%] flex-col items-center justify-center">
       <div className="mb-3 grid grid-cols-1">
         <p className="text-center text-4xl font-extrabold text-[#2E8EFF]">
           Rating
@@ -23,7 +23,7 @@ const Rating = () => {
         </div>
       </div>
 
-      <div className="m-6 grid w-[85%] grid-cols-2 gap-4">
+      <div className="m-6 grid w-full grid-cols-2 gap-4 md:w-[85%]">
         <div className="flex max-w-full flex-col items-center space-y-2 overflow-hidden rounded-lg bg-[#e5f6ff] px-4 py-3 text-[#27349F]">
           <Image
             src="/liveOps/apple-app-store-icon.svg"
