@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import LiveOpsCaseStudy from "@/components/LiveOpsCaseStudy";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
+import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
@@ -77,6 +78,7 @@ export default function Home() {
           </div>
         </section>
       </div>
+      <Services />
       <LiveOpsCaseStudy />
       <Projects />
       <Testimonials />

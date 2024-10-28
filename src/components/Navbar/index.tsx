@@ -34,13 +34,13 @@ const Navbar = () => {
             ABOUT US
           </Link>
           <Link
-            href="/services"
+            href="#services"
             className="font-bold transition-colors hover:text-blue-200"
           >
             SERVICES
           </Link>
           <Link
-            href="/contact"
+            href="#contactus"
             className="flex items-center bg-[#FCF42F] px-6 py-2 font-bold text-[#343464] transition-colors hover:bg-yellow-300"
           >
             CONTACT US

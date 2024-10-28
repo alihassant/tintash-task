@@ -118,7 +118,10 @@ import Image from "next/image";
 
 const ContactUs = () => {
   return (
-    <section className="relative overflow-hidden bg-[#3a46b4] md:min-h-[700px]">
+    <section
+      className="relative overflow-hidden bg-[#3a46b4] md:min-h-[700px]"
+      id="contactus"
+    >
       <div className="diagonal-line-projects"></div>
       <ContactUsForm />
       <div className="absolute bottom-0 right-0 top-0 hidden md:flex">
