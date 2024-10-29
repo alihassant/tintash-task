@@ -12,6 +12,7 @@ const LiveOpsOutcome = () => {
             width={300}
             height={300}
             className="h-[100px]"
+            loading={"eager"}
           />
         </div>
         <div className="flex pt-14">
@@ -20,6 +21,7 @@ const LiveOpsOutcome = () => {
             alt="Nail Salon"
             width={500}
             height={500}
+            loading={"eager"}
           />
         </div>
         <div>
@@ -29,6 +31,7 @@ const LiveOpsOutcome = () => {
             width={300}
             height={300}
             className="h-[100px] w-[100px]"
+            loading={"eager"}
           />
         </div>
       </div>
@@ -53,6 +56,7 @@ const LiveOpsOutcome = () => {
                 alt="Arrow Down"
                 width={20}
                 height={20}
+                loading={"eager"}
               />
               <span className="ps-2 text-xl">$1.1</span>
             </div>
@@ -70,6 +74,7 @@ const LiveOpsOutcome = () => {
                 alt="Arrow Down"
                 width={20}
                 height={20}
+                loading={"eager"}
               />
               <span className="ps-2 text-xl">32%</span>
             </div>
@@ -87,6 +92,7 @@ const LiveOpsOutcome = () => {
                 alt="Arrow Down"
                 width={20}
                 height={20}
+                loading={"eager"}
               />
               <span className="ps-2 text-xl">12%</span>
             </div>
@@ -102,6 +108,7 @@ const LiveOpsOutcome = () => {
             width={40}
             height={40}
             className="flex-shrink-0"
+            loading={"eager"}
           />
           <div className="flex flex-col items-center ps-2">
             <span className="font-semibold">DOWNLOAD</span>
@@ -115,6 +122,7 @@ const LiveOpsOutcome = () => {
             width={40}
             height={40}
             className="flex-shrink-0"
+            loading={"eager"}
           />
           <div className="flex flex-col items-center ps-2">
             <span className="font-semibold">DOWNLOAD</span>

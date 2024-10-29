@@ -4,7 +4,7 @@ import React from "react";
 
 const Rating = () => {
   return (
-    <div className="flex lg:w-[75%] flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center lg:w-[75%]">
       <div className="mb-3 grid grid-cols-1">
         <p className="text-center text-4xl font-extrabold text-[#2E8EFF]">
           Rating
@@ -30,6 +30,7 @@ const Rating = () => {
             alt="Quality"
             width={35}
             height={35}
+            loading={"eager"}
           />
           <span className="font-bold">#1</span>
           <span className="text-xs font-bold">FamilyGames</span>
@@ -41,6 +42,7 @@ const Rating = () => {
             alt="Quality"
             width={35}
             height={35}
+            loading={"eager"}
           />
           <span className="font-bold">#1</span>
           <span className="text-xs font-bold">FamilyGames</span>

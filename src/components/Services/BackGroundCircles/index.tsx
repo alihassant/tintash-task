@@ -63,6 +63,7 @@ const BackGroundCircles = () => {
           alt="Rock Monster"
           width={500}
           height={500}
+          loading={"eager"}
         />
       </div>
     </div>

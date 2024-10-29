@@ -31,6 +31,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
           height={40}
           alt="Quote Icon"
           className="relative z-10 mb-4 mt-4"
+          loading={"eager"}
         />
 
         {/* Quote Text */}

@@ -132,6 +132,7 @@ const ContactUs = () => {
             width={1000} // Adjust width as needed
             height={1000} // Adjust height as needed
             alt="Contact Us"
+            loading={"eager"}
           />
         </div>
       </div>

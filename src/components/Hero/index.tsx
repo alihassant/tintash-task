@@ -13,6 +13,7 @@ const Hero = () => {
             fill
             style={{ objectFit: "cover" }}
             className="object-center"
+            loading={"eager"}
           />
         </div>
 
@@ -99,6 +100,7 @@ const Hero = () => {
                 alt="Overlay SVG"
                 width={600} // Adjust width as needed
                 height={600} // Adjust height as needed
+                loading={"eager"}
               />
             </div>
 
@@ -109,6 +111,7 @@ const Hero = () => {
                 alt="Bottom Right SVG"
                 width={600} // Adjust width as needed
                 height={600} // Adjust height as needed
+                loading={"eager"}
               />
             </div>
           </div>

@@ -59,6 +59,7 @@ const LiveOpsCaseStudy = () => {
             layout="responsive" // Use responsive layout for the image
             width={500}
             height={400}
+            loading={"eager"}
           />
         </div>
       </main>

@@ -24,6 +24,7 @@ export default function WhyUs() {
           alt="Why Us Side Image"
           width={400}
           height={60}
+          loading={"eager"}
         />
       </div>
 

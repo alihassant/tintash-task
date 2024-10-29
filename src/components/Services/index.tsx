@@ -35,6 +35,7 @@ const Services = () => {
                 width={200}
                 height={200}
                 className="-translate-y-10"
+                loading={"eager"}
               />
             </div>
             <div className="mx-8 mt-4 flex flex-col items-start justify-center md:mx-0 md:mt-0 md:w-2/3">
@@ -73,6 +74,7 @@ const Services = () => {
                 width={200}
                 height={200}
                 className="-translate-y-10"
+                loading={"eager"}
               />
             </div>
           </div>
@@ -88,6 +90,7 @@ const Services = () => {
                 width={200}
                 height={200}
                 className="-translate-y-10"
+                loading={"eager"}
               />
             </div>
             <div className="mx-8 mt-4 flex flex-col items-start justify-center md:mx-0 md:mt-0 md:w-2/3">
@@ -128,6 +131,7 @@ const Services = () => {
                 width={200}
                 height={200}
                 className="-translate-y-10"
+                loading={"eager"}
               />
             </div>
           </div>

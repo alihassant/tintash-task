@@ -20,6 +20,7 @@ const AboutUsCard: React.FC<AboutUsCardProps> = ({
           width={150}
           height={150}
           className="-translate-y-6"
+          loading={"eager"}
         />
       </div>
       <div className="flex min-h-28 w-full flex-col items-center justify-center bg-[#3350B7] py-5">

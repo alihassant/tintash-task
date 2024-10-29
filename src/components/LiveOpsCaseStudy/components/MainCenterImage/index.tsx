@@ -9,6 +9,7 @@ const MainCenterImage = () => {
         alt="LiveOps Case Study"
         width={500}
         height={400}
+        loading={"eager"}
       />
     </div>
   );

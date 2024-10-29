@@ -14,6 +14,7 @@ const Features = () => {
                 width={200}
                 height={50}
                 className="object-contain"
+                loading={"eager"}
               />
             </div>
             <div className="col-span-1 flex items-center justify-center">
@@ -23,6 +24,7 @@ const Features = () => {
                 width={200}
                 height={50}
                 className="object-contain"
+                loading={"eager"}
               />
             </div>
             <div className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
@@ -32,6 +34,7 @@ const Features = () => {
                 width={200}
                 height={50}
                 className="object-contain"
+                loading={"eager"}
               />
             </div>
             <div className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
@@ -41,6 +44,7 @@ const Features = () => {
                 width={200}
                 height={50}
                 className="object-contain"
+                loading={"eager"}
               />
             </div>
             <div className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
@@ -50,6 +54,7 @@ const Features = () => {
                 width={200}
                 height={50}
                 className="object-contain"
+                loading={"eager"}
               />
             </div>
             <div className="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
@@ -59,6 +64,7 @@ const Features = () => {
                 width={200}
                 height={40}
                 className="object-contain"
+                loading={"eager"}
               />
             </div>
           </div>
