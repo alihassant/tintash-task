@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #f1fbff;
+}
+
 .rounded-custom {
   border-bottom-right-radius: 2rem;
   border-top-left-radius: 2rem;
@@ -31,6 +35,18 @@
   z-index: 0; /* Ensure it stays behind content */
 }
 
+.diagonal-line-about-us {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500%; /* Make it wider to allow for the diagonal */
+  height: 900px; /* Adjust this for the thickness of the line */
+  background-image: linear-gradient(#3a46b4, #3c7ac3, #3a46b4);
+  transform: translate(-45%, -50%) rotate(65deg); /* Center and rotate */
+  z-index: 0; /* Ensure it stays behind the content */
+  pointer-events: none; /* Ensure it doesn’t interfere with content */
+}
+
 .diagonal-line-projects {
   position: absolute;
   top: 50%;
@@ -51,4 +67,22 @@
 
 .font-custom {
   font-weight: 900;
+}
+
+.about-us-card-gradient-custom {
+  background: linear-gradient(
+    to bottom,
+    rgba(104, 88, 211, 0.6),
+    rgba(47, 43, 159, 0.6)
+  );
+}
+
+.ramp {
+  clip-path: polygon(100% 100%, 0 80%, 0% 0, 100% 0%);
+}
+
+@media (max-width: 639px) {
+  .ramp {
+    display: none; /* Hides the element on smaller screens */
+  }
 }

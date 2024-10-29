@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./components/Card";
-import { cardData } from "./cardData";
 import Swing from "../Reusable/Swing";
+import { projectsData } from "@/constants/data";
 
 const Projects = () => {
   return (
@@ -26,8 +26,8 @@ const Projects = () => {
       </div>
 
       <div className="rounded-tl-[50px] rounded-tr-[50px] bg-[#253694] bg-opacity-60 px-4 py-16 backdrop-blur-[6px] md:mx-16">
-        <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
-          {cardData.map((card, index) => (
+        <div className="max-w-8xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {projectsData.map((card, index) => (
             <Card key={index} {...card} />
           ))}
         </div>

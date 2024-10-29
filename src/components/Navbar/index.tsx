@@ -28,7 +28,7 @@ const Navbar = () => {
           } flex flex-col items-center justify-center space-y-2 md:flex md:flex-row md:justify-between md:space-y-0`}
         >
           <Link
-            href="/about"
+            href="#aboutus"
             className="font-bold transition-colors hover:text-blue-200"
           >
             ABOUT US
