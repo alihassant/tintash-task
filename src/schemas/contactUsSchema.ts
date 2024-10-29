@@ -7,10 +7,6 @@ export const ContactUsSchema = z.object({
   email: z.string().email("Invalid email address."),
   message: z.string().optional(), // optional message field
   file: z
-    .instanceof(File)
-    .optional()
-    .refine((file) => file === undefined || file.size <= 3 * 1024 * 1024, {
-      // 3 MB in bytes
-      message: "File size must not exceed 3 MB.",
-    }),
+    .any() // Allow File or undefined
+    .optional(),
 });
