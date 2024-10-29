@@ -6,7 +6,7 @@ import Circle from "./Circle";
 const ContactUs = () => {
   return (
     <section
-      className="relative overflow-hidden bg-[#3a46b4] md:min-h-[700px]"
+      className="relative h-auto overflow-hidden bg-[#3a46b4] md:min-h-[900px]"
       id="contactus"
     >
       <div className="diagonal-line-projects"></div>
