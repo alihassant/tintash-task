@@ -6,9 +6,12 @@ import { aboutUsData } from "@/constants/data";
 import BackgroundImages from "./components/BackgroundImages";
 
 const AboutUs = () => {
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 768); // Adjust the breakpoint as needed
+  const [isMobile, setIsMobile] = useState(false); // Adjust the breakpoint as needed
 
   useEffect(() => {
+    if (window.innerWidth < 768) {
+      setIsMobile(true);
+    }
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768); // Update state on resize
     };
