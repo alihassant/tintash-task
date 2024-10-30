@@ -55,7 +55,7 @@ Visit `http://localhost:3000` in your browser to view the landing page. The page
 
 - **Navbar**: Easy navigation across sections.
 - **Hero Section**: Engaging introduction to Tintash.
-- **Features**: Highlights key features of the company.
+- **Featured Games**: Showcases key games developed by the company.
 - **About Us**: Background information on the company.
 - **Why Us**: Reasons for choosing Tintash.
 - **Services**: Details of services offered.
