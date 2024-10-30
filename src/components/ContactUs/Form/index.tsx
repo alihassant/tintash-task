@@ -33,6 +33,8 @@ const ContactUsForm = () => {
       file: undefined, // Change this to undefined instead of null
     },
   });
+  console.log(agreement);
+  console.log("errors", errors);
 
   const onSubmit = async (data: ContactUsFormData) => {
     console.log("Form Data:", data);
@@ -69,6 +71,7 @@ const ContactUsForm = () => {
       if (response.status === "success") {
         reset();
         setSuccess(true);
+        setAgreement(false); // Reset the agreement status
         setTimeout(() => {
           setSuccess(false);
         }, 5000);
@@ -134,9 +137,6 @@ const ContactUsForm = () => {
                 className="bg-[#7982CD] bg-opacity-40 p-4 placeholder-white"
                 placeholder="COMPANY*"
               />
-              {errors.company?.message && (
-                <p className="text-red-500">{String(errors.company.message)}</p>
-              )}
             </div>
 
             <div className="flex flex-col">
@@ -146,10 +146,13 @@ const ContactUsForm = () => {
                 className="bg-[#7982CD] bg-opacity-40 p-4 placeholder-white"
                 placeholder="PHONE NUMBER"
               />
-              {errors.phone?.message && (
-                <p className="text-red-500">{String(errors.phone.message)}</p>
-              )}
             </div>
+            {errors.company?.message && (
+              <p className="text-red-500">{String(errors.company.message)}</p>
+            )}
+            {errors.phone?.message && (
+              <p className="text-red-500">{String(errors.phone.message)}</p>
+            )}
           </div>
 
           <div className="grid grid-cols-1">
@@ -226,16 +229,17 @@ const ContactUsForm = () => {
 
       {/* Agreement Checkbox - now inside the new parent div */}
       <div
-        className="z-10 mx-auto my-5 mt-4 flex items-center justify-center px-11 py-6 text-white sm:left-[16%] sm:w-[75%] md:absolute md:top-[80%] md:my-0 md:w-[50%] lg:w-[40%] xl:w-[30%]"
-        style={{ zIndex: 1 }}
+        className={`z-50 mx-auto my-5 mt-4 flex items-center justify-center px-11 py-6 text-white sm:left-[16%] sm:w-[75%] md:absolute ${errorMessage ? "md:top-[88%]" : Object.keys(errors).length > 0 ? "md:top-[90%]" : file ? "md:top-[84%]" : "md:top-[80%]"} md:my-0 md:w-[50%] lg:w-[40%] xl:w-[30%]`}
+        style={{ zIndex: 50 }} // Increased z-index to make sure it's on top
       >
         <input
           type="checkbox"
           id="agreement"
-          className="z-10 mr-2"
+          className="z-50 mr-2"
+          checked={agreement}
           onChange={(e) => setAgreement(e.target.checked)}
         />
-        <label htmlFor="agreement" className="z-10 text-white">
+        <label htmlFor="agreement" className="z-50 text-white">
           I agree to the{" "}
           <a href="#" className="text-[#708CD4] underline">
             Terms of Privacy Policy.
