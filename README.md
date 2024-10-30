@@ -75,7 +75,7 @@ Visit `http://localhost:3000` in your browser to view the landing page. The page
 
 ## Challenges and Solutions
 
-The main challenges faced were adjusting images and positioning elements for translation. Adjusting elements on top of each other was particularly difficult due to lack of prior experience in layout management.
+The main challenges faced were adjusting images and positioning elements. Adjusting elements on top of each other was particularly difficult due to lack of prior experience in layout management.
 
 ## Future Improvements
 
