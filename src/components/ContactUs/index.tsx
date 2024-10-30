@@ -2,6 +2,7 @@ import React from "react";
 import ContactUsForm from "./Form";
 import Image from "next/image";
 import Circle from "./Circle";
+import BackgroundLayer from "./BackgroundLayer";
 
 const ContactUs = () => {
   return (
@@ -10,6 +11,7 @@ const ContactUs = () => {
       id="contactus"
     >
       <div className="diagonal-line-projects"></div>
+      <div className="w-full h-full absolute bg-white opacity-10"></div>
       <ContactUsForm />
       <div className="absolute flex h-full w-full items-center">
         {/* First SVG */}
@@ -23,14 +25,15 @@ const ContactUs = () => {
             className="xl:-translate-x-36"
           />
         </div>
+        <BackgroundLayer />
         <Circle
-          radius="50%"
+          radius="57%"
           strokeWidth={10}
           opacity={0.2}
           strokeCcolor="grey"
         />
-        <Circle radius="40%" fill="#183361" strokeWidth={10} />
-        <Circle radius="28%" fill="#183361" strokeWidth={10} />
+        <Circle radius="43%" fill="#183361" strokeWidth={10} />
+        <Circle radius="30%" fill="#183361" strokeWidth={10} />
         <Circle radius="22%" fill="#183361" strokeWidth={0} />
         <Circle radius="17%" fill="#183361" strokeWidth={0} />
       </div>
