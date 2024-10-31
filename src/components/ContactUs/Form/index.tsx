@@ -127,7 +127,7 @@ const ContactUsForm = () => {
           </div>
 
           <div className="grid grid-cols-2">
-            <div className="flex w-[75%] flex-col">
+            <div className="flex w-[90%] flex-col sm:w-[75%]">
               <input
                 type="text"
                 {...register("company")}
