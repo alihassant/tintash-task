@@ -33,18 +33,15 @@ const ContactUsForm = () => {
       file: undefined, // Change this to undefined instead of null
     },
   });
-  console.log(agreement);
-  console.log("errors", errors);
 
   const onSubmit = async (data: ContactUsFormData) => {
-    console.log("Form Data:", data);
     try {
       setLoading(true);
       setErrorMessage("");
 
       // Check if the agreement checkbox is checked
       if (!agreement) {
-        throw new Error("Please agree to the Terms of Privacy Policy.");
+        throw new Error("Please agree to the Privacy Policy.");
       }
 
       // Create a FormData object to hold the form inputs
@@ -222,7 +219,7 @@ const ContactUsForm = () => {
                   : "SUBMIT"}
           </button>
           {errorMessage !== "" && (
-            <p className="text-red-500">{errorMessage}</p>
+            <p className="text-center text-red-500">{errorMessage}</p>
           )}
         </form>
       </div>
@@ -241,8 +238,8 @@ const ContactUsForm = () => {
         />
         <label htmlFor="agreement" className="z-50 text-white">
           I agree to the{" "}
-          <a href="#" className="text-[#708CD4] underline">
-            Terms of Privacy Policy.
+          <a href="#" className="px-2 text-[#708CD4] underline">
+            Privacy Policy
           </a>
         </label>
       </div>

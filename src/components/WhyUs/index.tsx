@@ -20,7 +20,7 @@ export default function WhyUs() {
       {/* Side Image */}
       <div className="absolute right-0 top-0 z-0 -mt-20 hidden md:block lg:-translate-y-48">
         <Image
-          src="/whyUs/why-us-image.svg"
+          src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/whyUs/why-us-image.svg"
           alt="Why Us Side Image"
           width={400}
           height={60}

@@ -15,7 +15,7 @@ const AboutUsCard: React.FC<AboutUsCardProps> = ({
     <div className="mt-12 flex flex-col items-center justify-center sm:mt-8">
       <div className="flex max-h-24 w-full items-center justify-center rounded-tl-3xl rounded-tr-3xl bg-gradient-to-b from-[#6858d3] to-[#2f2b9f]">
         <Image
-          src={imageSrc}
+          src={`https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main${imageSrc}`}
           alt={title}
           width={150}
           height={150}

@@ -11,13 +11,13 @@ const ContactUs = () => {
       id="contactus"
     >
       <div className="diagonal-line-projects"></div>
-      <div className="w-full h-full absolute bg-white opacity-10"></div>
+      <div className="absolute h-full w-full bg-white opacity-10"></div>
       <ContactUsForm />
       <div className="absolute flex h-full w-full items-center">
         {/* First SVG */}
         <div className="w absolute inset-0 z-10 items-center justify-end md:flex">
           <Image
-            src="/contactUs/contactus-characters.svg"
+            src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/contactUs/contactus-characters.svg"
             width={500} // Adjust width as needed
             height={500} // Adjust height as needed
             alt="Contact Us"

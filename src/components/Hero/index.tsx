@@ -8,7 +8,7 @@ const Hero = () => {
         {/* Background image */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#3a46b4] to-[#5492DB]">
           <Image
-            src="/hero-background.png"
+            src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/hero-background.png"
             alt="Hero image"
             fill
             style={{ objectFit: "cover" }}
@@ -96,7 +96,7 @@ const Hero = () => {
             {/* Second SVG positioned over the first */}
             <div className="absolute inset-0 flex items-center justify-center">
               <Image
-                src="/Pet_Idle_0051 8.svg"
+                src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/Pet_Idle_0051 8.svg"
                 alt="Overlay SVG"
                 width={600} // Adjust width as needed
                 height={600} // Adjust height as needed
@@ -107,7 +107,7 @@ const Hero = () => {
             {/* Third SVG positioned at the bottom-right */}
             <div className="absolute bottom-0 right-0">
               <Image
-                src="/Final_Pose-V2 2.png" // Replace with your SVG file name
+                src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/Final_Pose-V2 2.png" // Replace with your SVG file name
                 alt="Bottom Right SVG"
                 width={600} // Adjust width as needed
                 height={600} // Adjust height as needed

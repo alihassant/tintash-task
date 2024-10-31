@@ -7,7 +7,7 @@ const BackgroundLayer = () => {
       {/* 1 */}
       <div className="absolute z-10 flex h-full w-full items-start justify-end">
         <Image
-          src="/contactUs/left.svg"
+          src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/contactUs/left.svg"
           alt="Background Layer"
           height={110}
           width={110}
@@ -18,7 +18,7 @@ const BackgroundLayer = () => {
       {/* 2 */}
       <div className="absolute z-10 flex h-full w-full justify-end">
         <Image
-          src="/contactUs/left.svg"
+          src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/contactUs/left.svg"
           alt="Background Layer"
           height={30}
           width={30}
@@ -29,7 +29,7 @@ const BackgroundLayer = () => {
       {/* 3 */}
       <div className="absolute flex h-full w-full items-start justify-center opacity-25">
         <Image
-          src="/contactUs/right.svg"
+          src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/contactUs/right.svg"
           alt="Background Layer"
           height={70}
           width={70}
@@ -40,7 +40,7 @@ const BackgroundLayer = () => {
       {/* 4 */}
       <div className="absolute z-10 flex h-full w-full items-center justify-center">
         <Image
-          src="/contactUs/right.svg"
+          src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/contactUs/right.svg"
           alt="Background Layer"
           height={50}
           width={50}
@@ -51,7 +51,7 @@ const BackgroundLayer = () => {
       {/* 5 */}
       <div className="absolute flex h-full w-full items-start justify-center">
         <Image
-          src="/contactUs/right.svg"
+          src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/contactUs/right.svg"
           alt="Background Layer"
           height={70}
           width={70}
@@ -62,7 +62,7 @@ const BackgroundLayer = () => {
       {/* 6 */}
       <div className="absolute flex h-full w-full items-end justify-center opacity-25">
         <Image
-          src="/contactUs/left.svg"
+          src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/contactUs/left.svg"
           alt="Background Layer"
           height={30}
           width={30}
@@ -73,7 +73,7 @@ const BackgroundLayer = () => {
       {/* 7 */}
       <div className="absolute h-full w-full">
         <Image
-          src="/contactUs/right.svg"
+          src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/contactUs/right.svg"
           alt="Background Layer"
           height={40}
           width={40}
@@ -84,7 +84,7 @@ const BackgroundLayer = () => {
       {/* 8 */}
       <div className="absolute flex h-full w-full items-end">
         <Image
-          src="/contactUs/right.svg"
+          src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/contactUs/right.svg"
           alt="Background Layer"
           height={60}
           width={60}

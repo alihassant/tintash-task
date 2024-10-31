@@ -26,7 +26,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
 
         {/* Quote Icon */}
         <Image
-          src="/quote.svg"
+          src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/quote.svg"
           width={40}
           height={40}
           alt="Quote Icon"

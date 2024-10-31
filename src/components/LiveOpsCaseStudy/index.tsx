@@ -54,7 +54,7 @@ const LiveOpsCaseStudy = () => {
         {/* Image positioned at the bottom-left with responsive settings */}
         <div className="absolute bottom-0 left-0 w-full max-w-md">
           <Image
-            src="/liveOps/liveOpsBottomLeft.svg"
+            src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/liveOps/liveOpsBottomLeft.svg"
             alt="LiveOps Case Study"
             layout="responsive" // Use responsive layout for the image
             width={500}

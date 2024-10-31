@@ -17,7 +17,7 @@ export default function Card(
     <div className="overflow-hidden">
       <div className="flex flex-col items-center p-4 pt-1">
         <Image
-          src={image}
+          src={`https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main${image}`}
           alt={title}
           width={300}
           height={300}
@@ -27,7 +27,9 @@ export default function Card(
         <div className="mt-2 flex items-center">
           <span className="mr-2 text-sm text-gray-300">{category}</span>
           <Image
-            src={"/projects/apple-icon.svg"}
+            src={
+              "https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/projects/apple-icon.svg"
+            }
             alt="Apple Icon"
             height={16}
             width={16}
@@ -35,7 +37,9 @@ export default function Card(
             loading={"eager"}
           />
           <Image
-            src={"/projects/playstore-icon.svg"}
+            src={
+              "https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/projects/playstore-icon.svg"
+            }
             alt="Apple Icon"
             height={16}
             width={16}

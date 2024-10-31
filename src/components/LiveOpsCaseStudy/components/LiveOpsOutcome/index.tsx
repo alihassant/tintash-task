@@ -7,7 +7,7 @@ const LiveOpsOutcome = () => {
       <div className="mb-5 grid grid-cols-3 gap-6">
         <div>
           <Image
-            src="/liveOps/nail-salon-logo.svg"
+            src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/liveOps/nail-salon-logo.svg"
             alt="Nail Salon"
             width={300}
             height={300}
@@ -17,7 +17,7 @@ const LiveOpsOutcome = () => {
         </div>
         <div className="flex pt-14">
           <Image
-            src="/liveOps/tintash-logo.svg"
+            src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/liveOps/tintash-logo.svg"
             alt="Nail Salon"
             width={500}
             height={500}
@@ -26,7 +26,7 @@ const LiveOpsOutcome = () => {
         </div>
         <div>
           <Image
-            src="/liveOps/lion-studios-logo.png"
+            src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/liveOps/lion-studios-logo.png"
             alt="Nail Salon"
             width={300}
             height={300}
@@ -52,7 +52,7 @@ const LiveOpsOutcome = () => {
             <div className="flex items-center">
               <span className="pr-2 text-xl">$0.6</span>
               <Image
-                src="/liveOps/arrow.svg"
+                src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/liveOps/arrow.svg"
                 alt="Arrow Down"
                 width={20}
                 height={20}
@@ -70,7 +70,7 @@ const LiveOpsOutcome = () => {
             <div className="flex items-center">
               <span className="pr-2 text-xl">26%</span>
               <Image
-                src="/liveOps/arrow.svg"
+                src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/liveOps/arrow.svg"
                 alt="Arrow Down"
                 width={20}
                 height={20}
@@ -88,7 +88,7 @@ const LiveOpsOutcome = () => {
             <div className="flex items-center">
               <span className="pr-2 text-xl">9%</span>
               <Image
-                src="/liveOps/arrow.svg"
+                src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/liveOps/arrow.svg"
                 alt="Arrow Down"
                 width={20}
                 height={20}
@@ -103,7 +103,7 @@ const LiveOpsOutcome = () => {
       <div className="mt-14 grid w-[95%] grid-cols-2 gap-2">
         <div className="flex max-w-full flex-wrap items-center justify-center rounded-lg bg-[#2A327B] p-3 text-center text-white">
           <Image
-            src="/liveOps/apple-app-store-icon.svg"
+            src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/liveOps/apple-app-store-icon.svg"
             alt="App Store Icon"
             width={40}
             height={40}
@@ -117,7 +117,7 @@ const LiveOpsOutcome = () => {
         </div>
         <div className="flex max-w-full flex-wrap items-center justify-center rounded-lg bg-[#2A327B] p-3 text-center text-white">
           <Image
-            src="/liveOps/google-play-store-icon.svg"
+            src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/liveOps/google-play-store-icon.svg"
             alt="Google Play Icon"
             width={40}
             height={40}
