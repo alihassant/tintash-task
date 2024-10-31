@@ -31,9 +31,9 @@ export default function Card(
               "https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/projects/apple-icon.png"
             }
             alt="Apple Icon"
-            height={16}
-            width={16}
-            className="mr-1 h-4 w-4 text-gray-300"
+            height={12}
+            width={12}
+            className="mr-1 text-gray-300"
             loading={"eager"}
           />
           <Image
@@ -41,9 +41,9 @@ export default function Card(
               "https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/projects/playstore-icon.png"
             }
             alt="Apple Icon"
-            height={16}
-            width={16}
-            className="mr-1 h-4 w-4 text-gray-300"
+            height={12}
+            width={12}
+            className="mr-1 text-gray-300"
             loading={"eager"}
           />
         </div>

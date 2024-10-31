@@ -11,7 +11,7 @@ const Navbar = () => {
     <header className="fixed left-0 top-0 z-50 w-full bg-[#213488] bg-opacity-60 p-4 text-white backdrop-blur-[6px]">
       <div className="container mx-auto flex flex-col md:flex-row md:items-center xl:px-20">
         <div className="flex w-full items-center justify-between md:w-3/5">
-          <Link href="/" className="text-2xl font-bold">
+          <Link href={"#home"} className="text-2xl font-bold">
             Tintash
           </Link>
           <button

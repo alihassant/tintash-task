@@ -4,7 +4,7 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="relative h-[90vh] w-full">
+      <div className="relative h-[90vh] w-full" id="home">
         {/* Background image */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#3a46b4] to-[#5492DB]">
           <Image
