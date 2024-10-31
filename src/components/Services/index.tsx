@@ -30,7 +30,7 @@ const Services = () => {
           <div className="flex flex-col md:flex-row">
             <div className="mx-8 h-[150px] w-[170px] rounded-lg bg-gradient-to-br from-[#86BDFE] to-[#7A82FF] px-4 py-4">
               <Image
-                src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/services/1.svg"
+                src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/services/1.png"
                 alt="Ideation"
                 width={200}
                 height={200}
@@ -69,7 +69,7 @@ const Services = () => {
             </div>
             <div className="z-0 me-8 ms-4 h-[150px] w-[170px] rounded-lg bg-opacity-70 bg-gradient-to-br from-[#86BDFE] to-[#7A82FF] px-4 py-4 backdrop-blur-[6px] md:mb-0">
               <Image
-                src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/services/2.svg"
+                src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/services/2.png"
                 alt="Ideation"
                 width={200}
                 height={200}
@@ -85,7 +85,7 @@ const Services = () => {
           <div className="flex flex-col md:flex-row">
             <div className="mx-8 h-[150px] w-[170px] rounded-lg bg-opacity-70 bg-gradient-to-br from-[#86BDFE] to-[#7A82FF] px-4 py-4 backdrop-blur-[6px]">
               <Image
-                src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/services/3.svg"
+                src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/services/3.png"
                 alt="Ideation"
                 width={200}
                 height={200}
@@ -126,7 +126,7 @@ const Services = () => {
             </div>
             <div className="z-0 me-8 ms-4 h-[150px] w-[170px] rounded-lg bg-opacity-70 bg-gradient-to-br from-[#86BDFE] to-[#7A82FF] px-4 py-4 backdrop-blur-[6px] md:mb-0">
               <Image
-                src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/services/4.svg"
+                src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/services/4.png"
                 alt="Ideation"
                 width={200}
                 height={200}

@@ -92,26 +92,26 @@ export const aboutUsData = [
   {
     title: "Fortune 500",
     description: "3",
-    imageSrc: "/aboutUs/1.svg",
+    imageSrc: "/aboutUs/1.png",
   },
   {
     title: "Unicorns",
     description: "09",
-    imageSrc: "/aboutUs/2.svg",
+    imageSrc: "/aboutUs/2.png",
   },
   {
     title: "Downloads",
     description: "150M+",
-    imageSrc: "/aboutUs/3.svg",
+    imageSrc: "/aboutUs/3.png",
   },
   {
     title: "Completed Projects",
     description: "500+",
-    imageSrc: "/aboutUs/4.svg",
+    imageSrc: "/aboutUs/4.png",
   },
   {
     title: "Multiple Games in",
     description: "Top 10",
-    imageSrc: "/aboutUs/5.svg",
+    imageSrc: "/aboutUs/5.png",
   },
 ];

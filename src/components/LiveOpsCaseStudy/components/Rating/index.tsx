@@ -26,7 +26,7 @@ const Rating = () => {
       <div className="m-6 grid w-full grid-cols-2 gap-4 md:w-[85%]">
         <div className="flex max-w-full flex-col items-center space-y-2 overflow-hidden rounded-lg bg-[#e5f6ff] px-4 py-3 text-[#27349F]">
           <Image
-            src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/liveOps/apple-app-store-icon.svg"
+            src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/liveOps/apple-app-store-icon.png"
             alt="Quality"
             width={35}
             height={35}
@@ -38,7 +38,7 @@ const Rating = () => {
         </div>
         <div className="flex max-w-full flex-col items-center space-y-2 overflow-hidden rounded-lg bg-[#e5f6ff] px-4 py-3 text-[#27349F]">
           <Image
-            src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/liveOps/apple-app-store-icon.svg"
+            src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/liveOps/apple-app-store-icon.png"
             alt="Quality"
             width={35}
             height={35}

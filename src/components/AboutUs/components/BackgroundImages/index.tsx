@@ -9,7 +9,7 @@ const BackgroundImages = () => {
         <div className="grid grid-cols-4">
           <div>
             <Image
-              src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/1.svg"
+              src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/1.png"
               alt="1"
               width={120}
               height={120}
@@ -19,7 +19,7 @@ const BackgroundImages = () => {
           </div>
           <div>
             <Image
-              src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/2.svg"
+              src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/2.png"
               alt="1"
               width={100}
               height={100}
@@ -29,7 +29,7 @@ const BackgroundImages = () => {
           </div>
           <div className="flex justify-end">
             <Image
-              src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/3.svg"
+              src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/3.png"
               alt="1"
               width={120}
               height={120}
@@ -39,7 +39,7 @@ const BackgroundImages = () => {
           </div>
           <div className="flex justify-end">
             <Image
-              src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/4.svg"
+              src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/4.png"
               alt="1"
               width={100}
               height={100}
@@ -54,7 +54,7 @@ const BackgroundImages = () => {
         <div className="grid h-full grid-cols-5">
           <div className="flex justify-center">
             <Image
-              src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/5.svg"
+              src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/5.png"
               alt="5"
               width={50}
               height={50}
@@ -64,7 +64,7 @@ const BackgroundImages = () => {
           </div>
           <div className="flex">
             <Image
-              src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/6.svg"
+              src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/6.png"
               alt="6"
               width={80}
               height={80}
@@ -74,7 +74,7 @@ const BackgroundImages = () => {
           </div>
           <div className="flex justify-center">
             <Image
-              src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/7.svg"
+              src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/7.png"
               alt="7"
               width={100}
               height={100}
@@ -84,7 +84,7 @@ const BackgroundImages = () => {
           </div>
           <div className="flex justify-center">
             <Image
-              src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/8.svg"
+              src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/8.png"
               alt="8"
               width={100}
               height={100}
@@ -94,7 +94,7 @@ const BackgroundImages = () => {
           </div>
           <div className="flex items-center justify-end">
             <Image
-              src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/9.svg"
+              src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/9.png"
               alt="9"
               width={100}
               height={100}

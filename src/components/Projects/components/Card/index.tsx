@@ -28,7 +28,7 @@ export default function Card(
           <span className="mr-2 text-sm text-gray-300">{category}</span>
           <Image
             src={
-              "https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/projects/apple-icon.svg"
+              "https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/projects/apple-icon.png"
             }
             alt="Apple Icon"
             height={16}
@@ -38,7 +38,7 @@ export default function Card(
           />
           <Image
             src={
-              "https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/projects/playstore-icon.svg"
+              "https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/projects/playstore-icon.png"
             }
             alt="Apple Icon"
             height={16}

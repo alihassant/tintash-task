@@ -5,7 +5,7 @@ const MainCenterImage = () => {
   return (
     <div className="flex items-center justify-center">
       <Image
-        src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/liveOps/center-phone-image.svg"
+        src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/liveOps/center-phone-image.png"
         alt="LiveOps Case Study"
         width={500}
         height={400}

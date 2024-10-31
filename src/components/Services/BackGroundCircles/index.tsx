@@ -59,7 +59,7 @@ const BackGroundCircles = () => {
       {/* Rock Monster */}
       <div className="absolute inset-0 z-10 flex items-center justify-center">
         <Image
-          src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/services/rock-monster.svg"
+          src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/services/rock-monster.png"
           alt="Rock Monster"
           width={500}
           height={500}

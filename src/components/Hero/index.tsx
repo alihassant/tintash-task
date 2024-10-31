@@ -96,7 +96,7 @@ const Hero = () => {
             {/* Second SVG positioned over the first */}
             <div className="absolute inset-0 flex items-center justify-center">
               <Image
-                src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/Pet_Idle_0051 8.svg"
+                src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/hero-pet.png"
                 alt="Overlay SVG"
                 width={600} // Adjust width as needed
                 height={600} // Adjust height as needed
