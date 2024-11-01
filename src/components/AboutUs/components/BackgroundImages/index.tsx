@@ -11,8 +11,8 @@ const BackgroundImages = () => {
             <Image
               src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/1.png"
               alt="1"
-              width={120}
-              height={120}
+              width={100}
+              height={100}
               className="translate-x-10 translate-y-10"
               loading={"eager"}
             />
@@ -21,8 +21,8 @@ const BackgroundImages = () => {
             <Image
               src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/2.png"
               alt="1"
-              width={100}
-              height={100}
+              width={80}
+              height={80}
               className="translate-x-10 translate-y-24"
               loading={"eager"}
             />
@@ -31,8 +31,8 @@ const BackgroundImages = () => {
             <Image
               src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/3.png"
               alt="1"
-              width={120}
-              height={120}
+              width={100}
+              height={80}
               className="-translate-x-5 translate-y-10"
               loading={"eager"}
             />
@@ -41,9 +41,9 @@ const BackgroundImages = () => {
             <Image
               src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/4.png"
               alt="1"
-              width={100}
-              height={100}
-              className="-translate-x-20 translate-y-10"
+              width={60}
+              height={60}
+              className="-translate-x-20 translate-y-16"
               loading={"eager"}
             />
           </div>
@@ -56,9 +56,9 @@ const BackgroundImages = () => {
             <Image
               src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/5.png"
               alt="5"
-              width={50}
               height={50}
-              className="-translate-x-24 -translate-y-3"
+              width={80}
+              className="h-28 -translate-x-24 translate-y-32"
               loading={"eager"}
             />
           </div>
@@ -66,9 +66,9 @@ const BackgroundImages = () => {
             <Image
               src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/6.png"
               alt="6"
-              width={80}
+              width={100}
               height={80}
-              className="translate-x-10 translate-y-10"
+              className="w- h-24 translate-x-10 translate-y-48"
               loading={"eager"}
             />
           </div>
@@ -77,8 +77,8 @@ const BackgroundImages = () => {
               src="https://tintash-task-bucket.s3.us-east-1.amazonaws.com/main/aboutUs/bgImages/7.png"
               alt="7"
               width={100}
-              height={100}
-              className="-translate-x-5 translate-y-2"
+              height={50}
+              className="h-28 -translate-x-5 translate-y-40"
               loading={"eager"}
             />
           </div>
@@ -88,7 +88,7 @@ const BackgroundImages = () => {
               alt="8"
               width={100}
               height={100}
-              className="-translate-x-5 translate-y-10"
+              className="h-28 -translate-x-5 translate-y-48"
               loading={"eager"}
             />
           </div>
@@ -98,7 +98,7 @@ const BackgroundImages = () => {
               alt="9"
               width={100}
               height={100}
-              className="-translate-x-12 translate-y-10"
+              className="-translate-x-12 translate-y-4"
               loading={"eager"}
             />
           </div>
